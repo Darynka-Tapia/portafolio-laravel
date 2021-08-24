@@ -5,9 +5,7 @@
                 <img src="{{$course->img}}" class="rounded-md mb-2">
                 <h2 class="text-lg text-gray-600 truncate uppercase">{{$course->name}}</h2>
                 <h3 class="text-lg text-gray-500 ">{{$course->excerpt}}</h3>
-                <img src="{{$course->user->avatar}}" 
-                class="rounded-full mx-auto h-16 w-16 mt-4"
-                alt="">
+                
             </a>
         </div>
     @endforeach
